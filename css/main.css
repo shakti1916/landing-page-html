@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: gray;
+}
+
+.auth-btn-login {
+    padding: 8px 20px;
+    /* background-color:blue ; */
+    color: skyblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid skyblue;
+    background-color: #fff;
+
+    
+}
+
+.auth-btn-register{
+    padding: 8px 20px;
+    background-color:blue ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+.image-container img {
+    width: 100%; /* Image takes full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes unwanted space under image */
+}
+.container-content {
+    display: flex;
+    justify-content: space-between; /* Space between the two columns */
+    padding: 20px;
+    gap: 20px;
+
+}
+.left-column .right-column {
+    flex: 1; /* Ensures both columns take equal width */
+    padding: 10px;
+}
+
+.section-2 .title{
+    text-align: center;
+}
+
+.section-2 .sub-title{
+    text-align: center;
+}
